@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # Manage our dependency on the version of the github-pages gem here.
-gem "ad-github-pages", "= 228.1"
+gem "ad-github-pages", "~> 228.1"
 
 # Explicitly include this gem here.
 # It is not directly included in the github-pages gem list of dependencies,
