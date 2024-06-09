@@ -7,9 +7,6 @@ name: Docker
 
 on:
   push:
-    branches:
-      - 'main'
-      - 'feature-*'
     tags:
       - 'v*'
   # Allows you to run this workflow manually from the Actions tab
