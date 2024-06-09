@@ -60,3 +60,5 @@ jobs:
           push: true
           tags: ${{ steps.generate-image-tags.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          build-args:
+            RUBY_VERSION=3.3.2
